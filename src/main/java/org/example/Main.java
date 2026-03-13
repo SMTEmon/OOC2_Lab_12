@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
         // Task 1
         DataStore<Student> studentStore = new DataStore<>();
-        studentStore.add(new Student("101", "Alice", 3.8, "Female"));
-        studentStore.add(new Student("102", "Bob", 3.5, "Male"));
-        studentStore.add(new Student("103", "Charlie", 3.9, "Male"));
-        studentStore.add(new Student("104", "Diana", 3.7, "Female"));
-        studentStore.add(new Student("105", "Eve", 4.0, "Female"));
+        studentStore.add(new Student("101", "Samir", 3.8, "Female"));
+        studentStore.add(new Student("102", "Ashfaq", 3.5, "Male"));
+        studentStore.add(new Student("103", "Saimon", 3.9, "Male"));
+        studentStore.add(new Student("104", "Emon", 3.7, "Male"));
+        studentStore.add(new Student("105", "Tiran", 4.0, "Female"));
 
         // Task 2
         System.out.println("--- Students sorted by GPA (Descending) ---");
